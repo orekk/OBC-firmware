@@ -51,6 +51,8 @@ add_subdirectory(drivers)
 add_subdirectory(sys)
 add_subdirectory(modules)
 add_subdirectory(reliance_edge)
+# add_subdirectory(app)
+# add_subdirectory(bl)
 
 target_link_libraries(OBC-firmware.out PRIVATE
     tiny-aes
